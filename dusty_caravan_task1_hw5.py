@@ -1,6 +1,10 @@
 #! /usr/bin/env pythons
 import sys
-
+"""
+This script contains methods to check whether doors will open in a minivan based on multiple inputs
+functions:
+    checkDoors (checks if the doors will open based on the input)
+"""
 def checkDoors(ld, rd, cl, ml, li, lo, ri, ro, gs):
     """
     This checks all the switches and handles to see whether the door of the van will open

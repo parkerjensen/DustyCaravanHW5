@@ -1,10 +1,18 @@
 #! /usr/bin/env pythons
 import sys
-from parker_jensen_task1_hw5 import checkDoors
+from dusty_caravan_task1_hw5 import checkDoors
 from urllib.request import urlopen
-
+"""
+This script tests the dusty_caravan_task1_hw5.py files method checkDoors
+using test input from a csv loaded from the given url.
+functions:
+    testDoors (loads the url and uses it for the input on running checkDoors)
+"""
 def testDoors():
     """
+    Tests the checkDoors function from the dusty_caravan_task1_hw5.py file
+    args: NA
+    returns: NA
     """
     tests = urlopen("http://icarus.cs.weber.edu/~hvalle/cs3030/data/minivanTest.csv")
     tests = tests.read().decode()
