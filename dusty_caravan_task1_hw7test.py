@@ -10,7 +10,7 @@ functions:
 """
 def testDoors():
     """
-    Tests the checkDoors function from the dusty_caravan_task1_hw5.py file
+    Tests the checkDoors function from the dusty_caravan_task1_hw7.py file
     args: NA
     returns: NA
     """
