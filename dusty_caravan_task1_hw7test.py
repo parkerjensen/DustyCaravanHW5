@@ -1,6 +1,6 @@
 #! /usr/bin/env pythons
 import sys
-from dusty_caravan_task1_hw5 import checkDoors
+from dusty_caravan_task1_hw7 import checkDoors
 from urllib.request import urlopen
 """
 This script tests the dusty_caravan_task1_hw5.py files method checkDoors
